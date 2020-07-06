@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log in iniciar sesion</title>
+    <link rel="stylesheet" href="../estilos/loginstyle.css">
+
+</head>
+
+<body>
+    <div class="login-box">
+        <img class="avatar" src="../img/icono.png" alt="">
+        <h1>Iniciar Sesión</h1>
+        <form action="../php/validar.php" method="POST">
+            <!--usrname-->
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" name="usuario" placeholder="Ingrese Nombre de Usuario">
+            <!--usrpassword-->
+            <label for="password">Contraseña</label>
+            <input type="password" name="clave" placeholder="Ingrese su Contraseña">
+
+
+            <input type="submit" value="Iniciar sesíon">
+
+            <a href="">Recordar Contraseña</a>
+            <br>
+            <a href="">Registrarse</a>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

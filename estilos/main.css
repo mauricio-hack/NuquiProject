@@ -1,0 +1,88 @@
+.lognuqui {
+    width: 20%;
+    height: 20%;
+    border-radius: 7px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px whitesmoke;
+    opacity: .9;
+}
+
+.navbar .nav-item .nav-link {
+    color: whitesmoke;
+}
+
+.paradise {
+    height: 100%;
+    width: 100%;
+}
+
+.main-header {
+    position: relative;
+    background: url(../img/nuqui.jpeg);
+    background-size: contain;
+    min-width: 500px;
+}
+
+.turis {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.background-overly {
+    background: rgba(126, 214, 223, .5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team,
+footer {
+    background: #0ABF17;
+}
+
+.jurubira {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.flecha {
+    display: none;
+    font-size: 36px;
+    color: rgb(62, 254, 49);
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 5;
+}
+
+.reason
+{
+    padding-bottom: 155px;
+}
+
+.reason-chori, .reason-realise{
+
+    padding-bottom: 100px;
+}
+
+.integrant-cart{
+    padding-bottom: 40px;
+}
+
+.integrant-cart2{
+    padding-bottom: 15px;
+}
+
+.integrant-cart3{
+    padding-bottom: 35px;
+}
+
+.integrant-cart4{
+    padding-bottom: 55px;
+}

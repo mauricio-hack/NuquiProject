@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario registro</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+
+<body>
+
+    <h1>Formulario registro Nuquiboy</h1>
+
+    <form class="form-register" action="../php/registrar.php" method="POST">
+        <h2 class="form-titulo">Crear tu cuenta Nuquiboy</h2>
+        <div class="container-inputs">
+            <input class="input-50" type="text" name="nombre" placeholder="Nombre" required>
+            <input class="input-50" type="text" name="apellidos" placeholder="Apellidos" required>
+            <input class="input-100" type="email" name="correo" placeholder="Correo" required>
+            <input class="input-50" type="text" name="usuario" placeholder="Usuario" required>
+            <input class="input-50" type="password" name="clave" placeholder="Clave" required>
+            <input class="input-100" type="text" name="telefono" placeholder="Telefono" required>
+            <input class="btn-enviar" type="submit" value="Registrar" required>
+
+            <p class="form-link">¿ya tienes una cuenta?<a href="../views/login.html">ingresa aqui</a></p>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
